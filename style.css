@@ -1,0 +1,586 @@
+body {
+    font-family: 'Franklin Gothic Medium';
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    background-color: black;
+    text-align: end;
+    justify-content: space-between;
+    text-decoration: color(white);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1000;
+}
+
+#mary:hover {
+    scale: 1.4;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 50px;
+    height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#principal {
+    background: url('./img/fondoprin.png');
+    background-repeat: no-repeat;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+#titulo {
+    color: white;
+    font-size: 1000%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50pt;
+}
+
+.info {
+    font-size: 17pt;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center
+}
+
+/* MARRY ELLEN MARK */
+#seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/maryellenfondo.jpg");
+    height: 800px;
+}
+
+h2 {
+    font-size: 200px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.sustrabajos {
+    font-size: 30pt;
+    color: black;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+#fotounomary {
+    height: 400px;
+    width: 600px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 100px;
+}
+
+#fotounomary:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#fotodosmary {
+    height: 600px;
+    width: 400px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 900px;
+}
+
+#fotodosmary:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#fototresmary {
+    height: 400px;
+    width: 600px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 500px;
+}
+
+#fototresmary:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#fotocuatromary {
+    height: 500px;
+    width: 400px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 700px;
+}
+
+#fotocuatromary:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+/* MICHAEL PEDRERO */
+#seccion2 {
+    background-image: url(./img/perederofondodepantalla.png);
+    height: 800px;
+    background-size: 100%;
+    margin-top: 1300px;
+}
+
+#fotounomichel {
+    height: 500px;
+    width: 400px;
+    image-rendering: auto;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#fotounomichel:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#fotodosmichel {
+    height: 500px;
+    width: 400px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+#fotodosmichel:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#fototresmichel {
+    height: 300px;
+    width: 500px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 600px;
+}
+
+#fototresmichel:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#fotocuatromichel {
+    height: 400px;
+    width: 400px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 600px;
+}
+
+#fotocuatromichel:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+/* JEFF WALL */
+#seccion3 {
+    margin-top: 1200px;
+    background-image: url(./img/jeffwallfondo.png);
+    height: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.infoartista {
+    text-align: center;
+    font-size: 17pt;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#fotografiauno {
+    height: 400px;
+    width: 500px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 100px;
+}
+
+#fotografiauno:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#fotografiados {
+    height: 400px;
+    width: 600px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 700px;
+}
+
+#fotografiados:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#fotografiatres {
+    height: 400px;
+    width: 600px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 500px;
+
+}
+
+#fotografiatres:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#fotografiacuatro {
+    height: 450px;
+    width: 600px;
+    image-rendering: auto;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 500px;
+    transition: .5s var(--easing);
+}
+
+#fotografiacuatro:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+/* SUSCRIBITE */
+.signin {
+    margin-top: 1100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(4, 4, 4);
+    padding: 80px 80px;
+    text-align: center;
+}
+
+#suscribite {
+    font-size: 30pt;
+    color: rgb(236, 215, 255);
+    font-weight: bold;
+}
+
+#suscribitedos {
+    font-size: 20pt;
+    color: rgb(236, 215, 255);
+}
+
+#boton {
+    margin-left: 8px;
+    padding: 20px 30px;
+    background-color: aliceblue;
+    color: blueviolet;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 20pt;
+    display: inline-block;
+}
+
+#boton:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.informacion {
+    flex: 1;
+    padding: 10px;
+}
+
+.enlaces {
+    flex: 1;
+    padding: 10px;
+}
+
+.enlaces ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.enlaces a {
+    color: #fff;
+
+}
+
+.enlaces a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociales {
+    flex: 1;
+    padding: 10px;
+}
+
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#facebook {
+    height: 40px;
+    width: 40px;
+}
+
+#instagram {
+    height: 40px;
+    width: 40px;
+}
+
+#twitter {
+    height: 35px;
+    width: 35px;
+}
+
+/* pagina 1 de MARY ELLEN */
+.engloba {
+    display: flex;
+    justify-content: center;
+}
+
+.general {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+}
+
+.maryellenmark {
+    font-size: 600%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.informacion {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+}
+
+#fotito {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.tituloprincipal1 {
+    display: flex;
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+.infodefoto {
+    font-size: 150%;
+}
+
+/* paginas de MARRY ELLEN*/
+
+#fotitodos {
+    width: 400px;
+    height: 600px;
+    display: flex;
+
+}
+
+#fotitotres {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#fotitocuatro{
+    width: 400px;
+    height: 500px;
+    display: flex; 
+}
+
+/* paginas de MICHAEL PEDRERO*/
+#fotomuno{
+    width: 400px;
+    height: 600px;
+    display: flex;  
+}
+
+#fotomdos{
+    width: 300px;
+    height: 500px;
+    display: flex;  
+}  
+
+#fotomtres{
+    width: 150px;
+    height: 300px;
+    display: flex;  
+    justify-content: center; 
+}
+
+#fotomcuatro{
+    width: 250px;
+    height: 400px;
+    display: flex; 
+}
+
+/* paginas de JEFF WALL*/
+#fotojuno{
+    width: 250px;
+    height: 400px;
+    display: flex;  
+    justify-content: center;
+}
+
+#fotojdos{
+    width: 300px;
+    height: 450px;
+    display: flex;  
+    justify-content: center;
+}
+
+#fotojtres{
+    width: 250px;
+    height: 350px;
+    display: flex;  
+    justify-content: center;
+}
+
+#fotojcuatro{
+    width: 250px;
+    height: 350px;
+    display: flex; 
+    justify-content: center; 
+}
+
+
+/* FORMULARIO */
+
+#insc{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 50pt;
+    font-weight: bolder;
+}
+
+#form {
+    display: flex;
+    justify-content: space-around;
+}
+
+#formularioflex {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 800px;
+}
+
+#masgrande {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#grande {
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 15pt;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.inp {
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+input:focus {
+    border-bottom: 2px solid #cb95f1;
+}
+
+#buttonf{
+    background-color: #cb95f1; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 8px; 
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Validación</title>
+</head>
+<body>
+    <div id="form">
+    <div id="formularioflex">
+    <p id="insc">INSCRIBITE A INTENTÁNEA</p>
+<div id="masgrande">
+    
+    <div id="grande">
+    <form action="#" method="post">
+
+        <div>
+            <label class="temas" for="nombre">Nombre:</label>
+            <br>
+            <input class="inp" type="text" name="nombre" required>
+        </div>
+
+        <br><br>
+
+        <div>
+            <label class="temas" for="telefono">Teléfono:</label>
+            <br>
+            <input class="inp" type="tel" name="telefono" pattern="^\d{9}$" required>
+            <small>Debe ser un número de 9 dígitos.</small>
+        </div>
+
+        <br><br>
+
+        <div>
+            <label id="inp" class="temas" for="email">Correo Electrónico:</label>
+            <br>
+            <input class="inp" type="email" name="email" required>
+        </div>
+
+        <br><br>
+
+        <div>
+            <label class="temas" for="archivo">Subir archivo:</label>
+            <p>¡Mostranos tu trabajo!</p>
+            <input type="file" name="archivo" accept=".jpg,.png,.pdf" required>
+        </div>
+
+        <br><br>
+
+        <div>
+            <label class="temas"> Género:</label>
+            <br>
+            <label for="masculino">
+                <input type="radio" name="genero" value="masculino" required>
+                Masculino
+            </label>
+            <label for="femenino">
+                <input type="radio" id="femenino" name="genero" value="femenino" required>
+                Femenino
+            </label>
+        </div>
+
+        <br><br>
+
+        <div>
+            <label class="temas" for="color">Color para tu perfil:</label>
+            <input  type="color" name="color" value="#ff0000" required>
+        </div>
+
+        <br><br>
+
+        <div>
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Queremos sugerencias" required></textarea>
+        </div>
+
+        <br><br>
+
+        <div>
+            <button id="buttonf" type="submit">Enviar</button>
+        </div>
+    </div>
+</div>
+</div>
+    </form>
+
+</div>
+</body>
+</html>
+
+</body>
+</html>
